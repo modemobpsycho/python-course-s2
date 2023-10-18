@@ -1,0 +1,5 @@
+x1 = set(int(i) for i in input().split())
+x2 = set(int(i) for i in input().split())
+x3 = set(int(i) for i in input().split())
+big_set = set(range(11))
+print(*sorted(big_set - x1 - x2 - x3))
