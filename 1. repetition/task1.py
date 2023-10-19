@@ -1,5 +1,5 @@
 weight, height = float(input()), float(input())
-imt = weight / height ** 2
+imt = weight / height**2
 
 if imt > 25:
     print('Избыточная масса')
