@@ -1,6 +1,6 @@
 import random
 
-length = int(input())    # длина пароля
+length = int(input())  # длина пароля
 s = ''
 for _ in range(length):
     if random.randint(0, 1) == 1:
