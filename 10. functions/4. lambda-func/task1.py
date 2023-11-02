@@ -5,4 +5,4 @@ obj = map(lambda x: x + 1, numbers)
 obj = filter(lambda x: x % 2 == 1, obj)
 result = reduce(lambda x, y: x + y, obj, 0)
 
-print(result)
+print(result) 

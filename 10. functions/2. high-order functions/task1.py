@@ -33,4 +33,4 @@ def cube(x):
     return x**3
 
 
-print(*map(cube, filter(filter_numbers, numbers)), sep='\n')
+print(*map(cube, filter(filter_numbers, numbers)), sep='\n') 

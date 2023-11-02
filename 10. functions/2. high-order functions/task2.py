@@ -4,7 +4,7 @@ def reduce(operation, items, initial_value):
         acc = operation(acc, item)
     return acc
 
-
+ 
 def square_sum(x):
     return x**2
 
