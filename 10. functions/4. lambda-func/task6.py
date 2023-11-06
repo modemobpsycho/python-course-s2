@@ -13,5 +13,7 @@ result = list(filter(lambda x: True, primes))
 print(result)
 
 
-full_name = lambda first, last: f'Full name: {first.title()} {last.title()}'
+def full_name(first, last): return f'Full name: {first.title()} {last.title()}'
+
+
 print(full_name('ben', 'affleck'))
