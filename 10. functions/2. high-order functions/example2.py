@@ -1,7 +1,9 @@
-words = ['abba', 'qwerty', 'python', 'a', 'deed', 'nun', 'level', 'deified', 'bbbbb', 'mother', 'surface', 'sister']
+words = ['abba', 'qwerty', 'python', 'a', 'deed', 'nun',
+         'level', 'deified', 'bbbbb', 'mother', 'surface', 'sister']
 
 words_len = map(len, words)
 print(max(words_len))
+
 
 def map(function, items):
     result = []
