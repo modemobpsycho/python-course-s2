@@ -1,6 +1,6 @@
 n = int(input())
 count = [0, 0, 0, 0]
-names = ['Первая четверть:', 'Вторая четверть:', 
+names = ['Первая четверть:', 'Вторая четверть:',
          'Третья четверть:', 'Четвертая четверть:']
 
 for _ in range(n):
@@ -13,6 +13,6 @@ for _ in range(n):
         count[2] += 1
     elif x > 0 and y < 0:
         count[3] += 1
-        
+
 for i in range(4):
     print(names[i], count[i])

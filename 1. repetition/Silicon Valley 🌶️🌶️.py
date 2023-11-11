@@ -7,4 +7,4 @@ for i in range(1, int(input()) + 1):
             res += x
             s = s[s.find(x):]
     if res == virus:
-        print(i, end = ' ')
+        print(i, end=' ')
