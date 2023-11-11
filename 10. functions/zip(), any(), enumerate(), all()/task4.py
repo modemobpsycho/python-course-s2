@@ -5,4 +5,3 @@ words3 = ['apple', 'pineapple', 'orange', 'persimmon', 'pomegranate']
 
 
 print(len(list(zip(words1, words2, words3))))
-
