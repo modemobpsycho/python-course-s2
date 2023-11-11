@@ -5,7 +5,7 @@ for i in range(n):
     matrix.append(tmp)
 
 max_d = matrix[0][0]
-    
+
 for i in range(n):
     for j in range(n):
         if i >= j and matrix[i][j] > max_d:

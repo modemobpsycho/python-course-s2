@@ -4,8 +4,8 @@ matrix = []
 for _ in range(n):
     tmp = [i for i in range(m)]
     matrix.append(tmp)
-    
-count = 1    
+
+count = 1
 for k in range(n * m):
     for i in range(n):
         for j in range(m):

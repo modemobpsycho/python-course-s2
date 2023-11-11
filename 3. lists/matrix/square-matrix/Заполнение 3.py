@@ -10,6 +10,6 @@ for i in range(n):
             matrix[i][j] = 1
         elif i == n - 1 - j:
             matrix[i][j] = 1
-                  
+
 for i in range(n):
     print(*matrix[i])

@@ -17,8 +17,7 @@ for i in range(n):
             sum3 += matrix[i][j]
         elif i > j and i > n - 1 - j:
             sum4 += matrix[i][j]
-print(f"Верхняя четверть: {sum1}") 
-print(f"Правая четверть: {sum2}") 
-print(f"Нижняя четверть: {sum4}") 
-print(f"Левая четверть: {sum3}") 
-
+print(f"Верхняя четверть: {sum1}")
+print(f"Правая четверть: {sum2}")
+print(f"Нижняя четверть: {sum4}")
+print(f"Левая четверть: {sum3}")
