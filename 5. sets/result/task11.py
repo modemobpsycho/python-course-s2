@@ -7,4 +7,3 @@ if len(stud_set) - stud_less2 == 0:
     print("NO")
 else:
     print(len(stud_set) - stud_less2)
-
