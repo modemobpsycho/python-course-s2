@@ -14,10 +14,12 @@ planets = (('Солнце', 1390, 'yellow'),
            ('Нептун', 49.244, '#4C6DED'),
            ('Плутон', 2.3766, '#5B5D5A'))
 
+
 def ellipse(rad):
     for i in range(2):
         circle(rad - 90, 90)
         circle(rad // 2 - 90, 90)
+
 
 Screen().setup(1000, 400)
 Screen().colormode(255)

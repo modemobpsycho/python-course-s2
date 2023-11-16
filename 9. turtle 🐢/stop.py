@@ -1,14 +1,18 @@
-import turtle, math
+import turtle
+import math
 
 turtle.speed(0)
+
+
 def figure(n, side, color):
-  s = 180 - 180 * (n - 2) / n
-  turtle.fillcolor(color)
-  turtle.begin_fill()
-  for i in range(n):
-    turtle.forward(side)
-    turtle.right(s)
-  turtle.end_fill()
+    s = 180 - 180 * (n - 2) / n
+    turtle.fillcolor(color)
+    turtle.begin_fill()
+    for i in range(n):
+        turtle.forward(side)
+        turtle.right(s)
+    turtle.end_fill()
+
 
 turtle.up()
 turtle.goto(0, 100)
