@@ -3,3 +3,5 @@ fruits = {'apple', 'banana', 'cherry', 'avocado',
 sort_fruits = sorted(fruits, reverse=True)
 for x in sort_fruits:
     print(x)
+
+
